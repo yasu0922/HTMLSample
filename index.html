@@ -5,13 +5,21 @@
     <title>Hello Vue.js</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="js/main.js"></script>
 </head>
 
 <body>
     <div id="app">
         {{ message }}
     </div>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue.js!'
+            }
+        })
+    </script>
 </body>
 
 </html>
