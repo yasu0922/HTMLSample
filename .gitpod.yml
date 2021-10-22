@@ -2,5 +2,5 @@ vscode:
   extensions:
     - ritwickdey.LiveServer
     - octref.vetur
-    - ritwickdey.live-sass
+    - glenn2223.live-sass
 
